@@ -4,8 +4,8 @@ public class Stove {
     public boolean hookUp(){
         return true;
     }
-    public setBurnerTemp(int burner, double temp){
-
+    public void setBurnerTemp(int burner, double temp){
+        
     }
     public boolean isHot(){ 
         return false; 

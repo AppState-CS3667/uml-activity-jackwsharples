@@ -2,7 +2,7 @@ public class GasBurner extends Burner{
     private String gasType;
 
     public GasBurner() {
-        super();
+        super(1, 1, 1);
     }
 
     public boolean spark(){ 
