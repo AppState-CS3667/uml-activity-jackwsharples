@@ -4,7 +4,7 @@ public class ElectricBurner extends Burner{
     private double ampReq;
 
     public ElectricBurner(double voltReq) {
-        super(voltReq);
+        super(1, 1, 1);
     }
  
     public void increaseTemp(){
